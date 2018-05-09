@@ -1,0 +1,30 @@
+<dl class="container">
+  <dt>
+    <h1>Informazioni Personali</h1>
+
+    <form [formGroup]="personalInfoForm">
+
+      <div class="form-group">
+
+        <span id="cognome" class="Nome"> {{cognome.value}} </span>
+        <span id="nome" class="Nome">{{nome.value}}</span>
+
+      </div>
+
+      <div class="form-group">
+        <span id="viaeCivico" class="Nome"> {{viaeCivico.value}} </span>
+        <span id="codicePostale" class="Nome">{{codicePostale.value}}</span>
+
+      </div>
+
+     
+    </form>
+ </dt>
+
+</dl>
+
+
+<ngbd-modal-options></ngbd-modal-options>
+
+
+
