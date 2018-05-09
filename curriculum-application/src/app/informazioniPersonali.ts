@@ -4,8 +4,8 @@ export class InformazioniPersonali {
         nome: String ,
         cognome: String,
         viaeCivico: String ,
-        codicePostale: Number,
-        città: String,
+        codicePostale: String,
+        citta: String,
         //Nazione: String[],
         telefonoTipo: String,
         telefonoNumero: Number

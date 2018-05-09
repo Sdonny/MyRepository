@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-@import url('https://unpkg.com/bootstrap@3.3.7/dist/css/bootstrap.min.css');
+@import url('https://unpkg.com/bootstrap@4.4.1/dist/css/bootstrap.min.css');
 
 h1 {
     color: #369;
@@ -24,3 +24,7 @@ h1 {
     font-family: Cambria, Georgia;
     resize: both;
  }
+ span.Nome{color:#2f2e2d;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 120%
+}

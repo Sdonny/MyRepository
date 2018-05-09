@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {InformazioniPersonali} from '../informazioniPersonali';
-import { FormGroup, FormControl, Validators } from '@angular/forms';
+
 
 
 @Component({
@@ -11,16 +11,13 @@ import { FormGroup, FormControl, Validators } from '@angular/forms';
 export class CurriculumVitaeComponent implements OnInit {
 
 
-  personalInfo = {nome:'Salvatore', cognome: '', viaeCivico:'Via Cannizzaro' , 
-     codicePostale: 0 , citta: '', telefonoTipo:'', telefonoNumero: 0}
   
-  personalInfoForm : FormGroup;  
-     constructor() { }
+
+    // constructor() { }
 
 
   ngOnInit() {
-    this.personalInfoForm = new FormGroup({ this.personalInfo
-    })
+ 
   }
 
 }

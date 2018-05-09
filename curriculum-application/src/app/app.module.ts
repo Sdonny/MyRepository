@@ -11,6 +11,9 @@ import {ReactiveFormsModule} from '@angular/forms';
 import { CurriculumVitaeComponent } from './curriculum-vitae/curriculum-vitae.component';
 import { PersonalInfoComponent } from './personal-info/personal-info.component';
 //import {PasswordValidator} from './reactive/password-validator';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { NgbdModalOptions } from './modal-options';
+
 
 @NgModule({
 
@@ -18,7 +21,8 @@ import { PersonalInfoComponent } from './personal-info/personal-info.component';
     BrowserModule,
     FormsModule,
     AppRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    NgbModule.forRoot()
   ],
 
 
@@ -28,7 +32,8 @@ import { PersonalInfoComponent } from './personal-info/personal-info.component';
     UserFormComponent,
     RegistrazioneComponent,
     CurriculumVitaeComponent,
-    PersonalInfoComponent
+    PersonalInfoComponent,
+     NgbdModalOptions
     //PasswordValidator
    // MalformedMailReactives
   ],
